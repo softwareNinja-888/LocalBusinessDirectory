@@ -1,0 +1,18 @@
+FEATURES:
+    $ Map showing all businesses
+        $ Search field for specific results
+        $ Filter. For example only show burger resturants on Map
+    
+    $ Show and catergorize all listings
+        $ An area to display cards of different businesses (listings)
+            $ catergorize listings on different features i.e indutry, price, latest, etc
+
+    $ Information on cards and business profiles
+        
+
+    $ Header
+        $
+
+    
+
+FLOW OF WEBSITE:

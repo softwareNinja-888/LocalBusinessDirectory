@@ -592,10 +592,6 @@ video {
   width: 100%;
 }
 
-.w-11\/12 {
-  width: 91.666667%;
-}
-
 .w-lvw {
   width: 100lvw;
 }
@@ -616,16 +612,12 @@ video {
   justify-content: center;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
-.gap-12 {
-  gap: 3rem;
-}
-
 .gap-16 {
   gap: 4rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .border-b-2 {
@@ -646,8 +638,12 @@ video {
   padding: 1.25rem;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.font-rob {
+  font-family: robotoNew;
+}
+
+.font-infinity {
+  font-family: infinity;
 }
 
 .text-9xl {
@@ -666,6 +662,20 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+@font-face {
+  font-family: "robotoNew";
+
+  src: url("/fonts/roboto-condensed-webfont.woff2") format("woff2"),
+    url("/fonts/roboto-condensed-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "infinity";
+
+  src: url("/fonts/madeinfinity_personaluse-thin-webfont.woff2") format("woff2"),
+    url("/fonts/madeinfinity_personaluse-thin-webfont.woff") format("woff");
+}
+
 .hover\:text-yellow-300:hover {
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity));
@@ -680,16 +690,8 @@ video {
     flex-direction: row;
   }
 
-  .sm\:justify-between {
-    justify-content: space-between;
-  }
-
   .sm\:justify-around {
     justify-content: space-around;
-  }
-
-  .sm\:gap-6 {
-    gap: 1.5rem;
   }
 
   .sm\:gap-10 {
@@ -712,17 +714,13 @@ video {
     background-color: rgb(59 130 246 / var(--tw-bg-opacity));
   }
 
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:justify-around {
-    justify-content: space-around;
-  }
-
   .lg\:bg-yellow-500 {
     --tw-bg-opacity: 1;
     background-color: rgb(234 179 8 / var(--tw-bg-opacity));

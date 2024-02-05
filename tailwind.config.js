@@ -3,8 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      ma: {
-        center: "margin: 0 auto;",
+      fontFamily: {
+        rob: "robotoNew",
+        infinity: "infinity",
       },
     },
   },
